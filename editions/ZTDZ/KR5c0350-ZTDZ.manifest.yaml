@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR5c0350/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0350/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上洞心丹經訣
+  date: '2015-08-29 00:56:24.942883'
+  source:
+    repository: kanripo
+    path: KR5c0350
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0350_000-ZTDZ.yaml, hash: 'sha256:97781bd55bc2df7d26d5b0125c2c1d43c0c59efc15191dfd0fa0092d993ca5fd'}
+  - {seq: 1, filename: KR5c0350_001-ZTDZ.yaml, hash: 'sha256:f090a3dcf46b6ac6016b778bd7a24db2894d8ad3f93cb955251ccc48e84f2042'}
+  - {seq: 2, filename: KR5c0350_002-ZTDZ.yaml, hash: 'sha256:49ca643761652d67653b0472d8603ebc6a6f3acc2893b099cd601c33209e8e13'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0350_000-ZTDZ.markers.yaml, hash: 'sha256:cda092ef916f0e9bafab329fec8b6068d8e66721e222ba3aae5052b77c10e98c'}
+  - {seq: 1, role: markers, filename: assets/KR5c0350_001-ZTDZ.markers.yaml, hash: 'sha256:eb60a3925bbbcfe807eb593160fba8a5256cc204acb04ef24003a6eef473ced5'}
+  - {seq: 2, role: markers, filename: assets/KR5c0350_002-ZTDZ.markers.yaml, hash: 'sha256:abf431f69c9757c7f096fd36837dc54d686b32b0064723821e5d6fa346f52b86'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0350_SJB_000-190396a
+    span:
+    - body
+    - 0
+    - 4180
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5c0350_SJB_001-190401a
+    span:
+    - body
+    - 0
+    - 4194
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0350_SJB_002-190406a
+    span:
+    - body
+    - 0
+    - 4729
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:fe116899daa92ac835b130a78c813f82d35f3334ded6cd815a07cb696b04d0de
